@@ -14,7 +14,7 @@
     <h4>Seller</h4>
     <hr />
 
-    <d1 class="dl-horizontal">
+    <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -39,7 +39,7 @@
         <dd>
             @Html.DisplayFor(model => model.BaseSalary)
         </dd>
-    </d1>
+    </dl>
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />

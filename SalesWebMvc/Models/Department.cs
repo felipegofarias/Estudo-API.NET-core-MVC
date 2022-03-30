@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using SalesWebMvc.Models.ViewModels;
 
 namespace SalesWebMvc.Models
 {
-    public class Department
+    public class Department  
     {
         
 
